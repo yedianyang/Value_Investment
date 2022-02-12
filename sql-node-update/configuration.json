@@ -1,0 +1,110 @@
+{
+    "birth_year": {
+        "topic" : "birth_year",
+        "range": [-3,3],
+        "limit_range": [1980,2004],
+        "period" : 1800000
+    },
+    "height": {
+        "topic" : "height",
+        "range": [-2,2],
+        "limit_range": [145,199],
+        "period" : 1800000
+    },
+    "weight": {
+        "topic" : "weight",
+        "range": [-2,2],
+        "limit_range": [50,180],
+        "period" : 1800000
+    },
+    "daily_salary": {
+        "topic" : "daily_salary",
+        "range": [-20,20],
+        "limit_range": [120,3000],
+        "period" : 300000
+    },
+    "working_days_per_year": {
+        "topic" : "working_days_per_year",
+        "range": [-5,5],
+        "limit_range": [100,324],
+        "period" : 600000
+    },
+    "btc_num": {
+        "topic" : "btc_num",
+        "range": [-1,1],
+        "limit_range": [-200,200],
+        "period" : 60000
+    },
+    "eth_num": {
+        "topic": "eth_num",
+        "range": [-2,2],
+        "limit_range": [100,200],
+        "period" : 60000
+    },
+    "apartment_num": {
+        "topic": "apartment_num",
+        "range": [-2,2],
+        "limit_range": [100,200],
+        "period" : 240000
+    },
+    "house_num": {
+        "topic" : "house_num",
+        "range": [-2,2],
+        "limit_range": [100,200],
+        "period" : 240000
+    },
+    "house_floor_num": {
+        "topic": "car_num",
+        "range": [-1,1],
+        "limit_range": [-10,20],
+        "period" : 240000
+    },  
+    "car_num": {
+        "topic": "car_num",
+        "range": [-2,2],
+        "limit_range": [100,200],
+        "period" : 180000
+    },    
+    "ntf_num": {
+        "topic": "ntf_num",
+        "range": [-2,2],
+        "limit_range": [100,200],
+        "period" : 300000
+    },
+    "trip_per_year": {
+        "topic" : "trip_per_year",
+        "range": [-2,2],
+        "limite_range": [100,200],
+        "period" : 1800000
+    },
+    "education_requirement": {
+        "topic" : "education_requirement",
+        "range": [-1,1],
+        "limite_range": [0,6],
+        "period" : 600000
+    },
+    "gender_requirement": {
+        "topic" : "gender_requirement",
+        "range": [-1,1],
+        "limite_range": [0,2],
+        "period" : 600000
+    },    
+    "height_requirement": {
+        "topic" : "height_requirement",
+        "range": [-2,2],
+        "limite_range": [100,200],
+        "period" : 600000
+    },
+    "weight_requirement": {
+        "topic" : "weight_requirement",
+        "range": [-2,2],
+        "limite_range": [35000,70000],
+        "period" : 600000
+    },
+    "score_requirement": {
+        "topic" : "score_requirement",
+        "range": [-2,2],
+        "limite_range": [100,200],
+        "period" : 600000
+    }
+}

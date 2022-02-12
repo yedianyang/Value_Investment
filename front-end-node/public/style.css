@@ -1,0 +1,34 @@
+* {
+    text-align: center;
+    transition: 0.2s all;
+}
+
+@font-face {
+    font-family: Noto_serif_SC;
+    src: url(/Noto_Serif_SC/NotoSerifSC-Bold.otf);
+}
+
+body {
+    font-family: Noto_serif_SC;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.highlight {
+    color: rgb(255, 255, 255);
+    /*font-size: 1.1em;*/
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
