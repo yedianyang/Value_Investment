@@ -30,7 +30,7 @@ function RandomUpdatePortifolio(jsonObj) {
             console.log(jsonObj.topic, number.toString())
 
         })
-    }, 10000)
+    }, jsonObj.period)
 }
 
 
@@ -96,7 +96,7 @@ function calculateProperty() {
         let totalProperty = btcPrice * btcNum + ethPrice * ethNum + (houseNum * 3 * 100 + apartmentNum * 120) * housePrice + carNum * 0.2195 * 0.6;
         //Insert the neweset totalProperty back to database.
         db.insertNewPorfolioTopicData('property', totalProperty);
-        mqttPub.publishMQTTMessage('property', totalProperty.toString())
+        //mqttPub.publishMQTTMessage('property', totalProperty.toString())
         console.log((totalProperty / 10000).toFixed(2) + " 万元")
     })
 }
@@ -109,7 +109,7 @@ function calculateAnnualSalary() {
         console.log(value);
         let annual_salary = value[0][1] * value[1][1]
         db.insertNewPorfolioTopicData('annual_salary', annual_salary);
-        mqttPub.publishMQTTMessage('annual_salary', annual_salary.toString())
+        //mqttPub.publishMQTTMessage('annual_salary', annual_salary.toString())
         console.log('annual_salary is ' + annual_salary + ' 万元')
     })
 }

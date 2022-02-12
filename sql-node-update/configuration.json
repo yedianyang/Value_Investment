@@ -54,7 +54,7 @@
         "period" : 240000
     },
     "house_floor_num": {
-        "topic": "car_num",
+        "topic": "house_floor_num",
         "range": [-1,1],
         "limit_range": [-10,20],
         "period" : 240000
