@@ -36,7 +36,7 @@ function RandomUpdatePortifolio(jsonObj) {
 
 
 function getRandomInt(min, max) {
-    return Math.toFixed(Math.random() * (max - min) + min); //Do not use floor, which increase a negative result.
+    return (Math.random() * (max - min) + min).toFixed(); //Do not use floor, which increase a negative result.
 }
 
 
