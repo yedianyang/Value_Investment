@@ -7,9 +7,9 @@ let rawdata = fs.readFileSync('./configuration.json')
 let topicTerm = JSON.parse(rawdata)
 
 
+updatePortfolio.RandomUpdatePortifolio(topicTerm.birth_year)
 updatePortfolio.RandomUpdatePortifolio(topicTerm.height)
 updatePortfolio.RandomUpdatePortifolio(topicTerm.weight)
-updatePortfolio.RandomUpdatePortifolio(topicTerm.birth_year)
 updatePortfolio.RandomUpdatePortifolio(topicTerm.daily_salary)
 updatePortfolio.RandomUpdatePortifolio(topicTerm.working_days_per_year)
 updatePortfolio.RandomUpdatePortifolio(topicTerm.btc_num)

@@ -14,7 +14,7 @@
     "weight": {
         "topic" : "weight",
         "range": [-2,2],
-        "limit_range": [50,180],
+        "limit_range": [40,180],
         "period" : 1800000
     },
     "daily_salary": {
@@ -32,25 +32,25 @@
     "btc_num": {
         "topic" : "btc_num",
         "range": [-1,1],
-        "limit_range": [-200,200],
+        "limit_range": [-20,200],
         "period" : 60000
     },
     "eth_num": {
         "topic": "eth_num",
         "range": [-2,2],
-        "limit_range": [100,200],
+        "limit_range": [-20,200],
         "period" : 60000
     },
     "apartment_num": {
         "topic": "apartment_num",
         "range": [-2,2],
-        "limit_range": [100,200],
+        "limit_range": [-5,20],
         "period" : 240000
     },
     "house_num": {
         "topic" : "house_num",
         "range": [-2,2],
-        "limit_range": [100,200],
+        "limit_range": [-5,10],
         "period" : 240000
     },
     "house_floor_num": {
@@ -62,19 +62,19 @@
     "car_num": {
         "topic": "car_num",
         "range": [-2,2],
-        "limit_range": [100,200],
+        "limit_range": [0,1000],
         "period" : 180000
     },    
     "ntf_num": {
         "topic": "ntf_num",
         "range": [-2,2],
-        "limit_range": [100,200],
+        "limit_range": [0,200],
         "period" : 300000
     },
     "trip_per_year": {
         "topic" : "trip_per_year",
         "range": [-2,2],
-        "limite_range": [100,200],
+        "limite_range": [0,5],
         "period" : 1800000
     },
     "education_requirement": {
@@ -86,7 +86,7 @@
     "gender_requirement": {
         "topic" : "gender_requirement",
         "range": [-1,1],
-        "limite_range": [0,2],
+        "limite_range": [0,5],
         "period" : 600000
     },    
     "height_requirement": {
