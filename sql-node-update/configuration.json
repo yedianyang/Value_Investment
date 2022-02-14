@@ -65,7 +65,7 @@
         "limit_range": [0,1000],
         "period" : 180000
     },    
-    "ntf_num": {
+    "nft_num": {
         "topic": "ntf_num",
         "range": [-2,2],
         "limit_range": [0,200],

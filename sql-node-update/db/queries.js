@@ -30,10 +30,10 @@ function getPortfolioTopicData(topic) {
             if (error) {
                 console.log(error)
             }
-            // console.log(results.rows[0].topic)
-            // console.log(results.rows[0].number)
-            // console.log('------------------------------')
-            //return results.rows[0].number
+            console.log(results.rows[0].topic)
+            console.log(results.rows[0].number)
+            console.log('------------------------------')
+            // return results.rows[0].number
             resolve([results.rows[0].topic, results.rows[0].number])
         })
     })
